@@ -1,0 +1,246 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#root h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000;
+}
+body{
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+  background-color: plum;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Wix Madefor Display', sans-serif;
+font-weight: lighter;
+
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(205, 28, 205);
+  color: #fff;
+  width: 100%;
+  margin-bottom: 1rem;
+
+ 
+
+  
+ 
+
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+
+  
+  
+}
+
+
+
+
+nav ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0 1rem;
+
+
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+ 
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+
+nav ul li a:hover{
+
+  color: plum;
+}
+
+
+header img{
+  border-radius: 75px;
+}
+header h1, h3{
+  color: purple;
+}
+footer{
+  background-color:plum;
+  padding: 1rem;
+}
+
+header, footer {
+ 
+  padding: 20px;
+  text-align: center;
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+}
+.socials .fa-instagram:hover{
+transform: scale(1.2);
+transition: all 0.3s ease-in-out;
+color: white;
+}
+.socials .fa-whatsapp:hover{
+transform: scale(1.2);
+transition: all 0.3s ease-in-out;
+color: white;
+}
+.socials a{
+text-decoration: none;
+color: purple;
+font-weight: bold;
+}
+footer p{
+color: purple;
+}
+
+/* Table styles */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+caption{
+  color: purple;
+}
+
+table {
+
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.2rem;
+  color: purple;
+}
+.containerr {
+ 
+max-width: 500px;
+margin: 0 auto;
+font-size: 1.2rem;
+padding: 20px;
+border-radius: 5px;
+margin-top: 20px;
+background-color: rgb(243, 230, 232);
+transition: transform 0.3s, opacity 0.3s;
+margin-bottom: 50px;
+
+}
+.containerr:hover {
+transform: scale(1.1);
+opacity: 0.8;
+}
+
+
+.container p {
+margin-bottom: 10px;
+line-height: 1.5;
+
+
+}
+.undraw{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+.undraw img{
+width: 300px;
+}
+.container-about{
+  gap: 1rem;
+ 
+}
+p{
+  font-size: 1.2rem;
+  color: purple;
+  line-height: 1.5;
+  margin-bottom: 10px;
+ }
+h4{
+  font-size: 1.5rem;
+  color: purple;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+input{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+textarea{
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+button{
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: purple;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(205, 28, 205);
+  color: #fff;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 600;
+  color:plum;
+}
+
+
+
+
+
+
+
+
+
