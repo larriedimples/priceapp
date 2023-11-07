@@ -204,16 +204,7 @@ object-fit: cover;
 
 }
 
-@media screen and (max-width: 500px) {
-  .navbar.open {
-    nav {
-      display: block; /* Show the navigation menu */
-    }
-    .menu-icon {
-      display: none; /* Hide the menu icon */
-    }
-  }
-}
+
 
 
 

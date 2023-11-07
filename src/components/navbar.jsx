@@ -12,13 +12,13 @@ export default function NavBar() {
       <div className="bar"></div>
       <div className="bar"></div>
     </div>
-    <nav className="navigation">
+    <navbar className="navigation">
       <NavLink to="/">Home</NavLink>
       <NavLink to="/about" >About</NavLink>
       <NavLink to="/contact" >Contact</NavLink>
       <NavLink to="/pricelist" >Pricelist</NavLink>
       <NavLink to="/catalogue" >Catalogue</NavLink>
-    </nav>
+    </navbar>
     </div>
    
   )
