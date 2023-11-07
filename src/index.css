@@ -1,3 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu-icon {
+  display: block;
+  cursor: pointer;
+  /* Your icon styles go here */
+}
 
-
-
+.navbar {
+ 
+  justify-content: space-between;
+  align-items: center;
+  /* Your navigation styles go here */
+}

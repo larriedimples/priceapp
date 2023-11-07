@@ -1,51 +1,49 @@
-import React from 'react'
+import Image4 from './images/Image4.jpg'
+import Image6 from './images/Image6.jpg'
+import Image12 from './images/Image12.jpg'
 
 
 export default function About() {
   return (
     <>
-    <div className='container-about'>
-      <h1>About Dimplesglow!</h1>
-      <p>
-        At DimplesGlow, we believe that true beauty radiates from within. Our skincare company is dedicated to helping you achieve and maintain healthy, glowing skin, all while embracing the natural beauty that makes you unique. We understand that skincare is not one-size-fits-all, and that's why we've developed a range of products designed to cater to your individual skin needs.
-      </p>
-
-      <br />
-      <br />
-      <h4>Our Commitment to Natural Beauty</h4>
-      <p>
-        Our skincare company is dedicated to helping you achieve and maintain healthy, glowing skin, all while embracing the natural beauty that makes you unique. We understand that skincare is not one-size-fits-all, and that's why we've developed a range of products designed to cater to your individual skin needs.
+   <div className="containerr">
+    <h1>About Us</h1>
+    <p>
+        Welcome to DimplesGlow, your trusted partner on your skincare journey. We are passionate about helping you achieve and maintain healthy, radiant skin. Our mission is to provide you with the best skincare products and expert guidance to enhance your natural beauty.
       </p>
       <br />
-      <h4>
-      Discover Your Skincare Journey with DimplesGlow
-      </h4>
+      <img src={Image4} alt="Image 4" />
+      <h2>Our Story</h2>
+      <br />
       <p>
-      <strong>Unveil the Clean Slate:</strong> We know that every journey begins with a clean slate. Our cleansing products are specially designed to rid your skin of impurities and pollutants, providing the perfect foundation for your skincare routine.
-    
-      <br />
-      <br />
-
-     <strong>Nourish and Hydrate:</strong>  Hydration is key to a healthy complexion. DimplesGlow offers a range of moisturizers, serums, and creams to keep your skin hydrated, rejuvenated, and supple.
-      <br />
-      <br />
-
- <strong>Protect and Restore:</strong>  Exposure to the elements can take a toll on your skin. Our line of protective and restorative products shields your skin from environmental stressors and helps repair any damage.
-      <br />
-      <br />
-
-   <strong>Ageless Beauty:</strong>  Aging is a part of life, and we believe it should be embraced with grace. Our anti-aging solutions are designed to help you age beautifully, by maintaining your skin's elasticity and vibrancy.
-      <br />
-      <br />
-
-       <strong>Customized Solutions:</strong> Every individual's skin is unique. DimplesGlow offers personalized skincare solutions to address your specific concerns. We understand that your skincare needs may change, and we are here to support you through every phase of your skincare journey.
+        DimplesGlow was founded by a team of skincare enthusiasts who wanted to create a brand that focuses on quality, transparency, and customer satisfaction. We believe that every individual deserves to feel confident in their skin, and that's why we're dedicated to offering effective, safe, and affordable skincare solutions.
       </p>
-    
+      <img src={Image6} alt="Image 6" />
+      <br />
+      <h2>Our Commitment</h2>
+      <br />
+      <p>
+        At DimplesGlow, we are committed to:
 
+        - Using high-quality, natural ingredients in our products.
+        - Providing comprehensive skincare resources and tips.
+        - Delivering exceptional customer service.
+        - Promoting sustainability and eco-friendly practices.
+      </p>
+<br />
+      <h2>Contact Us</h2>
+      <img src={Image12} alt="Image 12" />
+      <br />
+      <p>
+        Have questions or feedback? Feel free to get in touch with us. We'd love to hear from you.
+<br />
+<br />
+      
+      </p>
+   </div>
 
-
-
-    </div>
+   
     </>
+    
   )
 }

@@ -1,36 +1,37 @@
-import React from 'react';
+import Image1 from './images/image1.jpg'
+import Image3 from './images/Image3.jpg'
 
 
 export default function Home() {
   return (
-    <div className="home-container">
-    <header>
-      <h1>Welcome to DimplesGlow</h1>
-      <p>Your destination for natural skincare solutions</p>
-    </header>
+    <>
+    <h1>DimplesGlow Skincare</h1>
+    <h3>"Glow Beyond Ordinary...</h3>
+    
+     <div className="containerr">
+     <p>Dear Esteemed Clients,</p>
+    <p>We extend a warm welcome and heartfelt gratitude to you for choosing DimplesGlow. We are delighted to have you explore our comprehensive skincare price list, designed to enhance your beauty regimen and elevate your self-care routine.</p>
+    <img src={Image1} alt="Image 1" />
+    
+<br />
+    <p>At <strong> DimplesGlow</strong>, we are passionate about providing you with the highest quality skincare products that deliver remarkable results. We have carefully curated a collection of products that cater to various skin concerns, ensuring there is something for everyone.</p>
+<br />
+    <p>As you peruse our price list, we invite you to discover a range of cleansers, toners, serums, moisturizers, masks, eye care, sunscreen, and special treatments. </p>
+<br />
+<img src={Image3} alt="Image 3" />
+    <p>Thank you once again for choosing DimplesGlow. We believe that self-care should be accessible to all, and we are dedicated to providing you with affordable luxury and exceptional value. </p>
+<br />
+    <p>Wishing you a beautiful and glowing skincare journey!</p>
+    <p>Best regards, <br /> DimplesGlow</p>
 
-    <section className="features">
-      <div className="feature">
-        <h2>Natural Ingredients</h2>
-        <p>Discover the power of natural and organic skincare ingredients.</p>
-      </div>
 
-      <div className="feature">
-        <h2>Customized Solutions</h2>
-        <p>Personalized skincare solutions for your unique needs.</p>
-      </div>
+     </div>
 
-      <div className="feature">
-        <h2>Ethical and Cruelty-Free</h2>
-        <p>We care about the environment and never test on animals.</p>
-      </div>
-    </section>
+    
 
-    <section className="cta">
-      <h2>Join Us Today</h2>
-      <p>Embrace your natural beauty with DimplesGlow skincare products.</p>
-      <button>Shop Now</button>
-    </section>
-  </div>
+
+ 
+
+    </>
   )
 }

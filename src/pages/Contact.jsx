@@ -2,52 +2,38 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className="contact-container">
-    <header>
+    <>
+    <div>
       <h1>Contact Us</h1>
-      <p>We're here to assist you with any questions or concerns.</p>
-    </header>
 
-    <section className="contact-info">
-      <div className="contact-item">
-        <h2>Email</h2>
-        <p>Send us an email at: <a href="mailto:contact@dimplesglow.com">contact@dimplesglow.com</a></p>
+      <div className="contact-section">
+        <h3><i class="fa-solid fa-phone"></i>Phone</h3>
+        <br />
+        <p><i class="fa-solid fa-headset"></i>  Customer Support: Call us at +4917674790579 for any urgent assistance.</p>
+        <br />
+        <p><strong><i class="fa-solid fa-clock"></i>Business Hours:</strong> Our phone support is available from Monday to Friday, 9:00 AM to 5:00 PM.</p>
       </div>
+      <br />
+      <br />
 
-      <div className="contact-item">
-        <h2>Phone</h2>
-        <p>Call our customer support at: <a href="tel:+1234567890">123-456-7890</a></p>
+      {/* Social Media Contact */}
+      <div className="contact-section">
+        <h3><i class="fa-solid fa-hashtag"></i>Social Media</h3>
+        <br />
+        <p>Connect with us on our social media pages for updates, tips, and more:</p>
+        <br />
+        <ul>
+          <li><a href="https://www.facebook.com/dimplesglow"><i class="fa-brands fa-facebook"></i>:dimplesglow </a></li>
+          <br />
+          <li><a href="https://www.instagram.com/dimp_lesglow"><i class="fa-brands fa-instagram"></i>:dimp_lesglow</a></li>
+          <br />
+          
+          <br />
+        </ul>
       </div>
-
-      <div className="contact-item">
-        <h2>Address</h2>
-        <p>Visit us at: 123 DimplesGlow Street, Radiance City</p>
-      </div>
-    </section>
-
-    <section className="contact-form">
-      <h2>Send Us a Message</h2>
-      <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-        <br />
-        <br />
-
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-        <br />
-        <br />
-
-        <label htmlFor="message">Message:</label>
-        <br />
-        <br />
-        <textarea id="message" name="message" rows="4" required></textarea>
-        <br />
-        <br />
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </div>
+    </div>
+    </>
   )
 }
+
+
