@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-nav{
+.navigation{
   padding: 1rem;
   background-color: lightpink;
   color: purple;
@@ -17,12 +17,12 @@ nav{
 
 
 
-nav a{
+.navigation a{
   text-decoration: none;
   color: purple;
 }
 
-nav a:hover{
+.navigation a:hover{
   text-decoration: underline;
 }
 
